@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class=" h-[82vh]">
+    <h1 class=" text-6xl text-center font-bold font-['Dancing_Script'] pt-8 mb-10">Blog Posts</h1>
+
+    <div class=" flex items-center justify-center ">
+         <div class="columns-xs max-w-4xl border">
+                <div>
+                    <img src="{% static '../../staticfiles/img/indexImg/blog.jpg' %}" alt="img">
+                </div>
+
+                 <div class="overflow-hidden p-4 mr-8">
+                    <h4>Blog 1</h4>
+                    <h5>sub heading</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed officiis vitae doloremque quibusdam totam minima! Unde, molestias. Fugiat, ex omnis.
+                    </p>
+                    <input type="button" value="Learn more">
+                 </div>
+                
+         </div>
+    </div>
+</div>
+{% endblock %}

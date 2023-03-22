@@ -1,0 +1,26 @@
+{% load tailwind_tags %} 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>// blog site //</title>
+    {% tailwind_css %}
+  </head>
+  <body>
+    
+      
+      <!-- Navbar  -->
+      {% include './partials/_navbar.html' %}
+
+      <!-- main content  -->
+      {% block content %} {% endblock %}
+
+      <!-- main content -->
+      {% include './partials/_footer.html' %}
+
+  </body>
+</html>
+

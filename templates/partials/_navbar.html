@@ -1,0 +1,18 @@
+
+      <nav
+        class="flex justify-between items-center bg-gray-900 text-white min-h-[10vh]"
+      >
+        <span class="px-3 font-['Dancing_Script']">BlogSite</span>
+        <!-- <span class="px-3"><img src="../logo.png" alt="" srcset="" /></span> -->
+
+        <div>
+          <ul class="flex">
+            <li><a href="{% url 'index' %}" class="mx-4">Home</a></li>
+            <li><a href="{% url 'about' %}" class="mx-4">About</a></li>
+            <li><a href="{% url 'archives' %}" class="mx-4">Archives</a></li>
+            <li><a href="{% url 'posts' %}" class="mx-4">Blog Posts</a></li>
+            <li><a href="{% url 'contact' %}" class="mx-4">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+  

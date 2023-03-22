@@ -1,0 +1,29 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+
+<header>
+  <div
+    class="sm:flex sm:justify-center sm:items-center sm:flex-col md:flex md:justify-center md:items-center md:flex-row min-h-[82vh]"
+  >
+    <div class="sm:basis-[50%] md:basis-[50%]">
+      <h2
+        class="mb-4 text-4xl font-semibold bg-gray-900 text-white p-4 md:ml-6 sm:w-[50%] sm:mx-auto sm:text-center"
+      >
+        Blog Posts
+      </h2>
+      <p class="text-justify text-lg font-semibold sm:p-5 sm:tracking-tight">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor
+        consequatur maxime voluptatum repellat, voluptatibus tempora quibusdam
+        distinctio debitis Sunt dolore deleniti molestiae eum, magnam soluta hic
+        quam voluptates fuga ipsum. Unde eaque, rerum culpa id repellendus hic
+        ducimus commodi necessitatibus enim ipsam nesciunt? Repellat aliquam ex
+        rem illum odio animi.
+      </p>
+    </div>
+    <!-- <div class="basis-[50%] text-center text-9xl">img</div> -->
+    <div class="basis-[50%]">
+      <img src="{% static 'img/indexImg/logo.jpg' %}" alt="blog img" />
+    </div>
+  </div>
+</header>
+
+{% endblock %}
